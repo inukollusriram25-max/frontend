@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elements</title>
+    <style>
+        .sriram::first-line {
+            color: aquamarine;
+        }
+
+        .naveen::first-letter {
+            color: blueviolet;
+            font-size: xx-large;
+
+        }
+
+        h1::before {
+            content: "Inukollu ";
+            color: aquamarine;
+        }
+
+        h2::after {
+            content: "Inukollu";
+            background-color: brown;
+        }
+        h3::selection{
+           background-color: aquamarine;  
+        }
+    </style>
+</head>
+
+<body>
+    <p class="sriram">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos. Officiis, nihil
+        accusantium consectetur veniam adipisci facilis molestiae quasi alias doloremque necessitatibus, aut asperiores
+        aliquid quae illum non accusamus voluptatibus fugit sint quod perspiciatis hic eos. Ducimus laborum aspernatur,
+        qui eum aperiam saepe nostrum culpa quia labore suscipit facere quo molestiae? Animi vel veniam repudiandae
+        blanditiis omnis culpa porro! Cupiditate suscipit officiis architecto quos libero quam mollitia error dolor
+        necessitatibus accusantium natus illo minus, dolores, magni sit sequi aut eius, neque eveniet repellendus fugiat
+        tempora debitis aliquam. Ut odit, cumque ab, facilis neque nostrum molestias reprehenderit culpa doloremque modi
+        ullam. Doloremque, in. Architecto reiciendis totam eligendi numquam delectus beatae harum quis. Facere animi
+        cupiditate natus laborum consequuntur minima voluptatem saepe libero sequi delectus veritatis ad vel assumenda
+        praesentium aperiam quisquam repudiandae quasi enim labore, exercitationem error eum quod. Necessitatibus
+        laborum dignissimos tenetur, dolores provident, nihil itaque placeat illum nisi ducimus officia voluptatum?
+        Dicta, esse pariatur reprehenderit quas expedita alias corrupti assumenda quae cupiditate eum dolorem eveniet,
+        dolorum voluptatum rerum nobis dolores odio ratione, quis magni corporis consectetur facilis a laboriosam?
+        Beatae a recusandae quibusdam explicabo, placeat nihil? Aperiam doloremque odio aliquam delectus? Quam ea ipsum
+        consectetur harum accusamus dicta earum!</p>
+
+    <p class="naveen">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, beatae.</p>
+
+    <h1>naveen</h1>
+    <h2>sriram</h2>
+    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, laborum voluptatibus. Ratione reiciendis
+        maxime perferendis ipsa eius aperiam sit laudantium repudiandae, et obcaecati numquam possimus!</h3>
+</body>
+
+</html>
